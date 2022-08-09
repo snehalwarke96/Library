@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand"  href="#">Library</a>
+        </div>
+    </nav>
+    <div class="container my-3">
+<h2>Fetch API Through Author info</h2>
+    </div>
+
+
+
+    <div class="container my-5">
+        <div class="mb-3 form-group">
+         <strong>Book Name :</strong>  
+
+        <select id="authorSel" class="form-select my-2" aria-label="Default select example">
+            <option class="optn" >Open this to select Book</option>   
+          </select>
+        </div>
+        <button type="submit" id="search" class="btn btn-primary" >Search</button>
+    </div>
+
+   <div class="container my-3">
+    <table class="table table-striped">
+        <thead id="tblhead">
+          <tr>
+            <th>Author</th>
+            <th>Language</th>
+            <th>Pages</th>
+            <th>Year</th>
+            <th>Country</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody id="tblBody">
+         
+        </tbody>
+      </table>
+   </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
+
+
